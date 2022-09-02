@@ -1,0 +1,131 @@
+body{
+  margin: 0;
+  background-color: #5F7161;
+  text-align: center;
+  font-family: 'merriweather', serif;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  color: #EFEAD8;
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.profile{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.p{
+  color: #5F7161;
+  font-size: 1.50rem;
+}
+
+.web-dev-skill{
+  font-size: 19px;
+}
+
+.contact-me{
+  padding-bottom: 10px;
+}
+
+.end{
+  padding-bottom: 20px;
+}
+
+/*-------------------------Heading tags--------------------------------*/
+h1{
+  color: #5F7161;
+  margin-top: 50px;
+  position: relative;
+  top: 40px;
+  font-family: 'sacramento', cursive;
+  font-size: 500%;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #EFEAD8;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #EFEAD8;
+}
+
+/*--------------------------Img and quote-----------------------------*/
+.quote{
+
+}
+
+.my-img{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.art-work{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.web-dev{
+  width: 35%;
+  height: 40%;
+  float: right;
+  margin-left: 40px;
+}
+
+/*--------------------------Container-section-------------------------*/
+
+.top-container{
+  background-color: #EFEAD8;
+  position: relative;
+  padding-top: 100px;
+  height: 550px;
+}
+
+.middle-container{
+
+}
+
+.bottom-container{
+  
+}
+
+/*----------------------------Props-section---------------------------*/
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 130px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 220px;
+  bottom: 250px;
+}
+
+.mountain{
+  position: relative;
+  width: 600px;
+  height: 300px;
+  left: 20px;
+  bottom: 20px;
+}
+
+/*--------------------------------------------------------------------*/
