@@ -5,12 +5,21 @@ body{
   font-family: 'merriweather', serif;
 }
 
+hr{
+  border: dotted #EFEAD8 8px;
+  border-bottom: none;
+  width: 7%;
+  margin: 100px auto;
+
+}
+
 p{
   font-family: 'Montserrat', sans-serif;
   color: #EFEAD8;
   font-size: 20px;
   position: relative;
   top: 20px;
+  line-height: 2;
 }
 
 .skill-row{
@@ -43,10 +52,16 @@ p{
 .end{
   font-weight: normal;
   padding-bottom: 20px;
+  margin: 40px auto 60px;
+  width: 50%;
 }
 
 .end1{
   font-weight: normal;
+}
+
+.footer-link{
+  margin-top: 20px;
 }
 
 /*-------------------------Heading tags--------------------------------*/
@@ -108,7 +123,7 @@ h3{
 }
 
 .bottom-container{
-
+  margin-top: 30px;
 }
 
 /*----------------------------Props-section---------------------------*/
@@ -134,3 +149,30 @@ h3{
 }
 
 /*--------------------------------------------------------------------*/
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
