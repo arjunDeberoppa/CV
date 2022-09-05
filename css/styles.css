@@ -41,7 +41,12 @@ p{
 }
 
 .end{
+  font-weight: normal;
   padding-bottom: 20px;
+}
+
+.end1{
+  font-weight: normal;
 }
 
 /*-------------------------Heading tags--------------------------------*/
@@ -103,7 +108,7 @@ h3{
 }
 
 .bottom-container{
-  
+
 }
 
 /*----------------------------Props-section---------------------------*/
